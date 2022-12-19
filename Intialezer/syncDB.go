@@ -1,0 +1,5 @@
+package Intialezer
+
+func SyncDataBase() {
+
+}

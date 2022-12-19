@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    {{template "nav"}}
+    <h1>Sign Up</h1>
+    <h2>{{.}}</h2>
+    <form action="/signup" method="post">
+        <input type="text" name="username" id="">
+        <input type="password" name="password" id="">
+        <input type="date" name="dob" id="">
+        <input type="text" name="place" id="">
+        <input type="submit" value="save">
+    </form>
+</body>
+</html>
